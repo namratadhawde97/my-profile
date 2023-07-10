@@ -10,39 +10,44 @@
         header{color: red;}
         span{color:  red;}
         li{background-color: lightgoldenrodyellow;}
-        #summary{color: black;}
-        #system{color: rgb(149, 8, 100);}
+        #system{color: rgb(149, 8, 100);
+         margin: 10px;}
         #single{color: black;}
         a{text-decoration: none;}
+        #dolar{margin: 20px;}
+        #link{ margin:10px}
+        .summary i{margin: 20px;}
       </style>
 </head>
 <body>
     <header style="background-color:powderblue;">
-        <i class="fa fa-user-circle" aria-hidden="true">&nbsp; Namrata Dhawde</i>&nbsp; &nbsp; &nbsp;
-        <i class="fa fa-phone-square" aria-hidden="true">&nbsp; 1234567898</i>&nbsp; &nbsp; &nbsp;
-        <i class="fa fa-envelope" aria-hidden="true">&nbsp;&nbsp;namratadhawde97@gmail.com</i>&nbsp; &nbsp; &nbsp;
+        <i id="dolar"class="fa fa-user-circle" aria-hidden="true">&nbsp; Namrata Dhawde</i>
+        <i id="dolar"class="fa fa-phone-square" aria-hidden="true">&nbsp; 1234567898</i>
+        <i id="dolar"class="fa fa-envelope" aria-hidden="true">&nbsp;&nbsp;namratadhawde97@gmail.com</i>
         <tr>
           <td ><button type="download"style="color:red">Download Resume</button></td>
         </tr>
       </header>
         <br> 
-        <a href="assignmentHome.html" target="myFrame">HOME</a>&nbsp;&nbsp;&nbsp;
-        <a href="tech.html" target="myFrame">TECHNOLOGY STOCK</a>&nbsp;&nbsp;&nbsp;
-        <a href="projectDetails.html" target="myFrame">PROJECT</a>&nbsp;&nbsp;&nbsp;
-        <a href="academic.html" target="myFrame">EDUCATION</a> &nbsp;&nbsp;&nbsp;
-        <a href="assignmentPersonal.html" target="myFrame">ABOUT ME</a>
+        <a id="link"href="assignmentHome.html" target="myFrame">HOME</a>
+        <a id="link" href="tech.html" target="myFrame">TECHNOLOGY STOCK</a>
+        <a id="link"href="projectDetails.html" target="myFrame">PROJECT</a>
+        <a id="link"href="academic.html" target="myFrame">EDUCATION</a> 
+        <a id="link"href="assignmentPersonal.html" target="myFrame">ABOUT ME</a>
         <br><br>
-  <iframe width="700px" height="400px" name="myFrame" src="inFrame.html"></iframe>
+  <iframe width="600px" height="500px" name="myFrame" src="inFrame.html"></iframe>
   <br>
-   <span id="summary">Follow Me:</span>&nbsp;
+  <nav class="summary">
+   <span >Follow Me:</span>
    <a href="https://www.github.com/zoom" target="_blank">
-    <i id="system"class="fa fa-github" aria-hidden="true"> </i></a>&nbsp;&nbsp;
+    <i class="fa fa-github" aria-hidden="true"> </i></a>
   <a href="https://www.linkedin.com/zoom" target="_blank">
-    <i id="system"class="fa fa-linkedin" aria-hidden="true"> </i></a>&nbsp;&nbsp;
+    <i class="fa fa-linkedin" aria-hidden="true"> </i></a>
   <a href="https://www.facebook.com/zoom" target="_blank">
-    <i id="system"class="fa fa-facebook-square" aria-hidden="true"> </i></a>&nbsp;&nbsp;
+    <i class="fa fa-facebook-square" aria-hidden="true"> </i></a>
   <a href="https://www.instagram.com/" target="_blank">
-    <i id="system"class="fa fa-instagram" aria-hidden="true"> </i></a>
+    <i class="fa fa-instagram" aria-hidden="true"> </i></a>
+  </nav>
       <P> Copyright <i id="single"class="fa fa-copyright"aria-hidden="true"></i> 2023 Zoom Video Communication,Inc.All right reserved</P>
   </body>
 </html>
